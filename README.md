@@ -1,1 +1,25 @@
 # alura-forum-api
+# Forum API
+
+Projeto de uma **API REST para Fórum Online**, construída em Java com Spring Boot e módulos do Spring Framework.  
+
+---
+
+## 🚀 Como rodar o projeto
+
+### 1. Instalar dependências
+Utilize o **Maven** para baixar todas as dependências declaradas no `pom.xml`.
+
+### 2. Escolher o perfil de execução
+A aplicação pode ser iniciada com três perfis de ambiente: **dev**, **test** e **prd**.  
+
+Se estiver executando pela IDE:
+
+```bash
+# Eclipse
+Run Configurations -> VM arguments
+-Dspring.profiles.active=dev
+
+# IntelliJ
+Run -> Edit Configurations -> Program arguments
+--spring.profiles.active=dev
